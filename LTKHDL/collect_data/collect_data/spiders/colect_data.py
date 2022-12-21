@@ -6,7 +6,7 @@ class collect_player_info(scrapy.Spider):
     def __init__(self):
         self.count = 0
         self.page_count = 2
-        self.num_page = 10 #Num of page need to get data
+        self.num_page = 55 #Num of page need to get data
     def start_requests(self):
         urls = ['https://www.topcv.vn/viec-lam-it?page=1']
         # YOUR CODE HERE
